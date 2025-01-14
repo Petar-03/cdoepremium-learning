@@ -583,6 +583,12 @@ strong {
   margin-top: 4.8rem;
 }
 
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
 .best-value {
   position: absolute;
   text-transform: uppercase;
@@ -594,4 +600,27 @@ strong {
   top: 33px;
   right: -40px;
   transform: rotate(45deg);
+}
+
+.feature-icon {
+  height: 2.8rem;
+  width: 2.8rem;
+  color: #004aad;
+  margin-bottom: 3.2rem;
+  background-color: #e6edf7;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  color: #333;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #6f6f6f;
 }
