@@ -109,6 +109,10 @@ strong {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
 /*Navigation*/
 .header {
   display: flex;
@@ -632,7 +636,7 @@ strong {
 
 /*Section CTA*/
 .section-cta {
-  padding: 9.6rem;
+  padding: 9.6rem 0 12.8rem 0;
 }
 
 .cta {
@@ -693,7 +697,7 @@ strong {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.cta-form::placeholder {
+.cta-form input::placeholder {
   color: #888;
 }
 
@@ -708,6 +712,7 @@ strong {
   align-self: end;
   padding: 1.2rem 1.6rem;
   border-radius: 9px;
+  transition: all 0.3s;
 }
 
 .cta-form input:focus,
@@ -729,4 +734,75 @@ strong {
     ),
     url("img/appointment.png");
   background-size: cover;
+}
+
+/*Footer*/
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+}
+
+.footer-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.contact {
+  font-style: normal;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+.contact p {
+  margin-bottom: 1.6rem;
+}
+
+.footer-navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+  line-height: 1.6;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }
