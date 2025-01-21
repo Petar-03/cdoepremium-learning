@@ -479,6 +479,7 @@ strong {
   background-color: #e6edf7;
   display: grid;
   grid-template-columns: 55fr 45fr;
+  align-items: center;
 }
 
 .testimonials-container {
